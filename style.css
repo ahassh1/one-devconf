@@ -1,11 +1,10 @@
 *{
     padding: 0;
     margin: 0;
-     font-family: "Arimo", sans-serif;
+    font-family: "Arimo", sans-serif;
 }
 .container{
     max-width: 1280px;
-    /* border: 2px solid black; */
     margin: auto;
 }
 .nav-bg{
@@ -33,4 +32,38 @@
     border: none;
     color: white;
     cursor: pointer;
+}
+.banner-container {
+    position: relative;
+}
+
+.banner-image img {
+    width: 100%;
+    height: 580px;
+    object-fit: cover;
+    filter: brightness(60%);
+    display: block;
+}
+
+.banner-title {
+    position: absolute;
+    inset: 0;          
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;     
+    text-align: center;
+    color: white;
+}
+
+.banner-title h1 {
+    font-size: 52px;   
+}
+
+.banner-title p {
+     margin: 24px 0;
+     font-size: 15px;
+}
+.middle-heading{
+    font-style: italic;
 }
