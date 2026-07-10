@@ -1,0 +1,2 @@
+## Task: Create a Professional Career Opportunities & FAQ Section
+###currently i am creating a simple and professional devconf website use in html and css, now i want to add a section like job board and faq item in one section,  and i use this secondary color in all button in my website '  background: linear-gradient(135deg, #00e5ff, #00bcd4);' so you give a perfect and simple section like this for best user experience.
